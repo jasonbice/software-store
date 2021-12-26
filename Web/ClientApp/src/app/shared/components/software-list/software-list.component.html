@@ -1,0 +1,11 @@
+<table class="table">
+  <thead>
+  <th>Name</th>
+  <th>Version</th>
+  </thead>
+  <tr *ngFor="let softwareItem of softwareItems">
+    <td>{{softwareItem.name}}</td>
+    <td>{{softwareItem.version}}</td>
+  </tr>
+</table>
+<!-- TODO: Add pagination -->
